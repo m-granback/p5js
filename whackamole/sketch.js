@@ -4,7 +4,7 @@ var hammer;
 var rott = false;
 
 function preload(){
-  bild = loadImage('https://image.shutterstock.com/image-vector/cartoon-funny-mole-260nw-456602506.jpg');
+  bild = loadImage("mole_head.png");
   hammer = loadImage('https://thumbs.dreamstime.com/z/retro-cartoon-stone-hammer-texture-isolated-white-37598412.jpg');
 }
 
@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
   createCanvas(600,600);
-  background(255);
+  background(126,170,49);
   mulle.logic();
   mulle.show();
   switch (rott){
