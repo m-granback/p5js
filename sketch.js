@@ -2,7 +2,7 @@ function preload(){
  
 }
 function setup() {
-  // frameRate(1);
+  
   
 }
 
