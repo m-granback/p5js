@@ -34,7 +34,7 @@ function draw() {
       break;
     }
 
-image(mole_dirt,200,400,150,150);
+image(mole_dirt,180,400,150,100);
 
 }
 function mousePressed(){
