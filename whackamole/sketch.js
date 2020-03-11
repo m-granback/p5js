@@ -1,12 +1,14 @@
 var mulle;
 var mole_head;
 var mole_dirt;
+var mole_hands;
 var hammer;
 var rott = false;
 
 function preload(){
   mole_head = loadImage("mole_head.png");
   mole_dirt = loadImage("mole_dirt.png");
+  mole_hands = loadImage("mole_hands.png");
   hammer = loadImage('https://thumbs.dreamstime.com/z/retro-cartoon-stone-hammer-texture-isolated-white-37598412.jpg');
 }
 

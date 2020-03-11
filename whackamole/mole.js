@@ -23,6 +23,10 @@ show(){
   textSize(33);
   image(mole_head, this.x, this.y,100,100);
   text('Want to play?',200,200);
+  if(this.y < 360){
+    image(mole_hands,180,400,150,100);
+
+  }
 
 
 }
