@@ -14,7 +14,7 @@ function preload(){
 
 
 function setup() {
-  mulle = new Mole(200,400);
+  mulle = new Mole(50,100);
 
 }
 
@@ -23,6 +23,12 @@ function draw() {
   background(126,170,49);
   mulle.logic();
   mulle.show();
+image(mole_dirt,30,100,150,100);
+  
+if(mulle.y < 100){
+    image(mole_hands,60,90,90,50);
+
+  }
   switch (rott){
     case false:
     image(hammer,mouseX-50,mouseY-50, 100,100);
@@ -36,15 +42,15 @@ function draw() {
       break;
     }
 
-image(mole_dirt,180,400,150,100);
-
 }
 function mousePressed(){
 
   rott = true;
+  
 
 }
 function mouseReleased(){
 rott = false;
 
 }
+
